@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.signupwrapper{
+  display: flex;
+  justify-content: center;
+}
+.signupcard1{
+  margin-top: 5rem;
+  width: 27vw;
+}
+.loginwrapper{
+  display: flex;
+  justify-content: center;
+}
+.logincard1{
+  margin-left: 2rem;
+  margin-top: 9rem;
+  width: 27vw;
+}
+
+.loginbutton{
+  width: 2rem;
+  height:2rem
+}
+.imgcar{
+  margin-top: 7rem;
+  height: 28.5rem;
+  width:18rem;
+  position:relative
+}
+.car{
+  position:absolute;
+  top: 3.9rem;
+  left: 4.9rem;
+  /* height:1rem; */
+  width:12rem ;
+}
+#insta{
+  
+  display: flex;
+ justify-content: center;
+ margin-bottom: 0rem;
+ margin-top: 0rem;
+ height: 6rem;
+ width: 26rem;
+
+}
+.video-container{
+  height: 80vh;
+  width: 22vw;
+  border-radius: 20px;
+  /* background-color: lightcoral; */
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+
+  /* these upper three properties remove the scroll bar */
+}
+.video-container::-webkit-scrollbar{
+  display: none;
+}
+.video-styling{
+  position: relative;
+  width:100%;
+  height: 80vh;
+  scroll-snap-align: start;
+}
+.videos{
+  position: relative;
+}
+.fa{
+  position: absolute;
+  bottom: 12%;
+  left:6%;
+}
+.fa h4{
+  color: white;
+  margin-top: 14%;
+  margin-left: 10%;
+}
+.icon-styling{
+  
+  position: absolute;
+  bottom: 9%;
+  left:7%
+
+}
+.like{
+  color: red;
+}
+.unlike{
+ 
+ color: white;
+}
+.chat-styling{
+  color: white;
+  position: absolute;
+  bottom:9%;
+  left:17.5%
+
+}
+.modal-container{
+  
+  display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.video-modal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-modal video{
+  
+  height: 85vh;
+  margin-left: 10%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.comment-modal{
+  width: 45%;
+  height: 100%;
+}
+.card2{
+  width:99%;
+  height:70%
+}
+.unlike2{
+  color: darkgray;
+}
+.card1{
+  height:70vh;
+}
+.insta-icon1 img{
+  height: 8vh;
+  width: 9vw;
+}
+.spacer{
+  min-height: 12vh;
+}
+.container{
+  min-height: 88vh;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.upper-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img{
+  flex-basis: 50%;
+}
+
+.info{
+  flex-basis: 40%;
+}
+
+.profile-img img{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.profile-videos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-videos video{
+  height: 20rem;
+  padding: 0.5rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
